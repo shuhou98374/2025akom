@@ -12,6 +12,7 @@
     inset: 0;
     display: grid;
     place-items: center;
+    width: 390px;
 }
 .spinner {
     width: 190px;
@@ -38,6 +39,10 @@ body{
     width: 390px;
 }
 
+/**{
+    outline: 2px red solid;
+}*/
+
 .Kuji{
     margin-top: 2000px;
 }
@@ -58,30 +63,25 @@ h2{
 
 }
 
-.border-radius {/*Massage〇*/
-    display: inline-block;
-    width: 850px;
-    line-height: 105px;
-    /*position: center;*/
-    background-color: #ffffff;
-    border-radius: 50%;
-    /*top:50%;*/
-    color: #000;
-    text-align: center;
-    margin-top: 450px;
-    margin-bottom: 20vh;
-    opacity: 0.75;
-    /*padding: 1em 2em;*/
-    position: relative;
+
+.midashi{
+    margin-top: 300px;
+    margin-bottom: 450px;
+    
 }
 
 .Logo{
-    margin-top: 350px;
-    margin-bottom: 400px;
+    margin-bottom: 80px;
+}
+
+.text{
+    font-size: 20px;
+    text-align: center;
+    width: 390px;
 }
 
 #Massage{
-    margin-bottom: 400px;
+    margin-bottom: 320px;
 }
 
 .radius {
@@ -103,21 +103,9 @@ h2{
     color: #000;
     text-align: center;
     font-size: 15px;
-    width: 395px;
+    width: 390px;
 }
 
-/*em.sample1{
-    font-size:24px;
-}*/
-
-/*blockquote{
-    border: solid 2px;
-    background-color: #2018ff;
-    width: 400px;
-    margin-top: 20px;
-    margin-left: 30px;
-    
-}*/
 /*.btn {
     font-family:'HGP行書体', serif;
     border-radius: 5px;
