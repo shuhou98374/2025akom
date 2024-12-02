@@ -43,9 +43,6 @@ body{
     outline: 2px red solid;
 }*/
 
-.Kuji{
-    margin-top: 2000px;
-}
 
 h1{
     font-family: "Zen Maru Gothic", serif;/*Zen Maru Gothic*/
@@ -65,7 +62,7 @@ h2{
 
 
 .midashi{
-    margin-top: 300px;
+    margin-top: 250px;
     margin-bottom: 450px;
     
 }
