@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
   loading.classList.add('loaded');
 });
 
-const items = document.querySelector('.Logo');
+const items = document.querySelector('.midashi');
 
 const keyframes={
     opacity:[0,1]
