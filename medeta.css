@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&family=Sawarabi+Mincho&family=Zen+Maru+Gothic&display=swap');
+
+
+/* ローディング画面 */
+#loading {
+    transition: all 1s;
+    background-color: #ddd;
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    display: grid;
+    place-items: center;
+}
+.spinner {
+    width: 200px;
+    height: 200px;
+}
+
+/* ローディング完了したらローディング画面を隠す */
+.loaded {
+    opacity: 0;
+    visibility: hidden;
+}
+
+body{
+    background-color:#c53d43;
+    color:#fff;
+    /*font-family: "Sawarabi Gothic", sans-serif;/*さわらびゴシック*/
+    /*font-family: "Sawarabi Mincho", serif;/*さわらび明朝*/
+    font-family: "Zen Maru Gothic", serif;/*Zen Maru Gothic*/
+    /*font-weight: 400;*/
+    font-style: normal;
+    font-size: 40px !important;
+    text-align: center;
+    width: 840px;
+}
+
+.Kuji{
+    margin-top: 2000px;
+}
+
+h1{
+    font-family: "Zen Maru Gothic", serif;/*Zen Maru Gothic*/
+    color: #000;
+    font-size: 100px;
+    text-align: center;
+
+}
+
+h2{
+    font-family: "Zen Maru Gothic", serif;/*Zen Maru Gothic*/
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.border-radius {/*Massage〇*/
+    display: inline-block;
+    width: 850px;
+    height: 850px;
+    line-height: 105px;
+    /*position: center;*/
+    background-color: #ffffff;
+    border-radius: 50%;
+    /*top:50%;*/
+    color: #000;
+    text-align: center;
+    margin-top: 450px;
+    margin-bottom: 20vh;
+    opacity: 0.75;
+    /*padding: 1em 2em;*/
+    position: relative;
+}
+
+.Logo{
+    margin-top: 800px;
+    margin-bottom: 800px;
+}
+
+#Massage{
+    margin-bottom: 20vh;
+}
+
+.radius {
+    font-size: 35px !important;
+}
+
+.page-footer{
+    position: center;
+    text-align: center;
+}
+
+.info {
+    font-size: 30px;
+}
+
+.copyright{
+    background-color: #fff;
+    padding: 2rem 0;
+    margin-top: 9rem;
+    color: #000;
+    text-align: center;
+}
+
+/*em.sample1{
+    font-size:24px;
+}*/
+
+/*blockquote{
+    border: solid 2px;
+    background-color: #2018ff;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}*/
+/*.btn {
+    font-family:'HGP行書体', serif;
+    border-radius: 5px;
+    background-color: #dccb18;
+    padding: 10px;
+    text-decoration: none;
+    color: #e9e4d4;
+  }*/
+
+  
