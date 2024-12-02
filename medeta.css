@@ -13,6 +13,7 @@
     display: grid;
     place-items: center;
     width: 390px;
+    height: 900px;
 }
 .spinner {
     width: 190px;
@@ -44,7 +45,7 @@ a:link { color: #333333; } /*訪問したことのないリンク先のリンク
 a:visited { color: #333333;} /*訪問したことあるリンク先のリンク色を指定。*/
 a:hover { color: #e6b422;} /*選んでいる状態のリンク色を指定*/
 
-
+/*表示範囲を確認する枠*/
 /**{
     outline: 2px red solid;
 }*/
@@ -124,7 +125,7 @@ h2{
     text-align: center;
     font-size: 15px;
     width: 390px;
-    height: 50px;
+    height: 70px;
 }
 
 
