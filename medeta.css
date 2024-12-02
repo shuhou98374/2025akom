@@ -39,6 +39,12 @@ body{
     width: 390px;
 }
 
+
+a:link { color: #333333; } /*訪問したことのないリンク先のリンク色を指定。*/
+a:visited { color: #333333;} /*訪問したことあるリンク先のリンク色を指定。*/
+a:hover { color: #e6b422;} /*選んでいる状態のリンク色を指定*/
+
+
 /**{
     outline: 2px red solid;
 }*/
@@ -64,17 +70,34 @@ h2{
 .midashi{
     margin-top: 250px;
     margin-bottom: 450px;
-    
+    width: 390px;
+    font-size: 20px;
 }
 
 .Logo{
     margin-bottom: 80px;
 }
 
+.btn {
+    text-align: center;
+    background: #b18309; 
+    background: linear-gradient(90deg, #b18309, #cfa836, #b18309); 
+    color: #ffffff;
+    box-shadow: 0 5px 0 #584807;
+    border-radius: 50vh; 
+    padding: 0.5em 1em 0.8em;
+    line-height:1;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    a {
+        text-decoration: none;
+      }
+  }
+
 .text{
     font-size: 20px;
     text-align: center;
-    width: 390px;
 }
 
 #Massage{
@@ -101,15 +124,9 @@ h2{
     text-align: center;
     font-size: 15px;
     width: 390px;
+    height: 50px;
 }
 
-/*.btn {
-    font-family:'HGP行書体', serif;
-    border-radius: 5px;
-    background-color: #dccb18;
-    padding: 10px;
-    text-decoration: none;
-    color: #e9e4d4;
-  }*/
+
 
   
