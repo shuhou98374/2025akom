@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <mete charset="usf-8">
+        <title>新春おみくじ</title>
+        <meta name="description"content="2025年おみくじサイト By.shiho">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+        <!-- リセットCSS -->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <!-- オリジナルCSS -->
+        <link rel="stylesheet" type="text/css" href="medeta.css">
+        <!-- ファビコン -->
+        <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+        <!-- オリジナルJS -->
+        <script src="ma.js" defer></script>
+
+        <style>
+            div {
+            width: 390px;
+            height: 100px;
+            }
+            p {
+            width: 50%;
+            }
+            </style>
+    </head>
+
+    <!--メニュー画面-->
+    <header class="page-header">
+            <!-- ヘッダーロゴ -->
+            <img src="pic/Logo黒.png" width="" height="50px" id="kujiba" alt="タイトル">
+                
+            <!-- ハンバーガーメニュー部分 -->
+            <div class="nav">
+    
+            <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+            <input id="drawer_input" class="drawer_hidden" type="checkbox">
+    
+            <!-- ハンバーガーアイコン -->
+            <label for="drawer_input" class="drawer_open"><span></span></label>
+    
+            <!-- メニュー -->
+            <nav class="nav_content">
+                <img src="pic/Logo黒.png" width="250px" id="taitolkuro" alt="タイトル">
+                <ul class="nav_list">
+                <li class="nav_item"><a href="ma.html">ホーム</a></li>
+                <li class="nav_item"><a href="">メッセージ</a></li>
+                <li class="nav_item"><a href="">注意事項</a></li>
+                <li class="nav_item"><a href="">おみくじ作成の裏側</a></li>
+                </ul>
+            </nav>
+    
+            </div>
+    </header>
+    
+    <body>
+            <!-- ローディング画面 -->
+            <div id="loading">
+                <img class="spinner" src="pic/load.png" alt="">
+            </div>
+            
+            <div>
+                <p class="kuji-text">
+                    <img src="pic/bunhebi.png" width="20px">
+                    好きな数字をお選びください
+                    <img src="pic/bunhebi.png" width="20px">
+                </p>
+            </div>
+
+            <div class="select">
+                <a href="" class="btn-malformation">一</a>
+                <a href="" class="btn-malformation">二</a>
+                <a href="" class="btn-malformation">三</a>
+                <a href="" class="btn-malformation">四</a>
+                <a href="" class="btn-malformation">五</a>
+                <a href="" class="btn-malformation">六</a>
+                <a href="" class="btn-malformation">七</a>
+                <a href="" class="btn-malformation">八</a>
+                <a href="" class="btn-malformation">九</a>
+                <a href="" class="btn-malformation">十</a>
+            </div>
+    </body>
+
+    <footer class="page-footer">
+            <!--<h2>Info</h2>-->
+            
+            <p class="info">
+            </p>
+                <div class="copyright">
+                <small>OMIKUJI-SITE 2025</small>
+            </div>
+    </footer>
+</html>
